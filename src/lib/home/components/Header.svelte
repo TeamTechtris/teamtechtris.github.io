@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { colors } from '$lib/core/theme';
 	import * as THREE from 'three';
 	import * as SC from 'svelte-cubed';
 </script>
@@ -12,7 +13,7 @@
 		<SC.Canvas alpha antialias>
 			<SC.Mesh
 				geometry={new THREE.BoxGeometry()}
-				material={new THREE.MeshStandardMaterial({ color: 0xff3e00 })}
+				material={new THREE.MeshStandardMaterial({ color: colors.gold.DEFAULT })}
 			/>
 			<SC.PerspectiveCamera position={[1, 1, 3]} />
 			<SC.AmbientLight intensity={0.6} />

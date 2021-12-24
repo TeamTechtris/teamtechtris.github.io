@@ -7,19 +7,19 @@ const config = {
 		extend: {
 			colors: {
 				purple: {
-					DEFAULT: 'rgb(169 146 207)',
-					dark: 'rgb(126 112 188)',
+					DEFAULT: '#A992CF',
+					dark: '#7E70BC',
 				},
 				pink: {
-					DEFAULT: 'rgb(237 146 197)',
+					DEFAULT: '#CF92C5',
 				},
 				salmon: {
-					DEFAULT: 'rgb(223 130 140)',
-					light: 'rgb(216 150 148)',
+					DEFAULT: '#DF828C',
+					light: '#D89694',
 				},
 				gold: {
-					DEFAULT: 'rgb(237 180 132)',
-					light: 'rgb(243 199 127)',
+					DEFAULT: '#EDB484',
+					light: '#F3C77F',
 				},
 			},
 			fontFamily: {
