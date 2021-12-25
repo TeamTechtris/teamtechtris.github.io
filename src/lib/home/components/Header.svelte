@@ -2,12 +2,14 @@
 	import TechtrisModelCanvas from './TechtrisModelCanvas.svelte';
 </script>
 
-<section class="relative bg-gradient-to-b from-pink/50">
-	<header class="max-w-screen-md p-8 mx-auto">
-		<h1 class="mt-32 mb-16 text-6xl font-bold drop-shadow-lg text-gradient">Techtris</h1>
+<section class="relative bg-gradient-to-b from-pink/50 aspect-video">
+	<header class="flex flex-col justify-end h-full max-w-screen-md p-8 mx-auto">
+		<h1 class="text-6xl font-bold">
+			<span class="text-purple-light">Tech</span><span>tris</span>
+		</h1>
 		<p>T-spinning since 2019</p>
 	</header>
-	<div class="absolute inset-0 left-1/2">
+	<div class="absolute inset-0 left-1/2 md:left-1/3">
 		<TechtrisModelCanvas />
 	</div>
 </section>

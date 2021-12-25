@@ -7,6 +7,6 @@
 
 @layer utilities {
 	.text-gradient {
-		@apply text-transparent bg-clip-text bg-gradient-to-r from-salmon via-gold-light to-gold-light;
+		@apply text-transparent bg-clip-text bg-gradient-to-r from-salmon via-gold-light to-white;
 	}
 }
