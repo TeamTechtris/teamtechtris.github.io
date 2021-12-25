@@ -14,4 +14,7 @@ export const colors = {
 		DEFAULT: '#EDB484',
 		light: '#F3C77F',
 	},
+	blue: {
+		DEFAULT: '#0010FF',
+	},
 };

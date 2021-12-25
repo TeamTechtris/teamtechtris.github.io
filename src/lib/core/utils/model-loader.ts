@@ -3,7 +3,7 @@ import { MTLLoader } from 'three/examples/jsm/loaders/MTLLoader';
 import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader';
 
 import type { GLTF } from 'three/examples/jsm/loaders/GLTFLoader';
-import type { BufferGeometry, Material, Mesh } from 'three';
+import type { Mesh } from 'three';
 
 export const loadGLTF = (url: string): Promise<GLTF> => {
 	const gltfLoader = new GLTFLoader();
@@ -19,26 +19,13 @@ export const loadGLTF = (url: string): Promise<GLTF> => {
 	});
 };
 
-export const loadOBJ = (
-	objUrl: string,
-	mtlUrl: string
-): Promise<Mesh<BufferGeometry, Material>[]> => {
-	const mtlLoader = new MTLLoader();
+export const loadOBJ = (objUrl: string): Promise<Mesh[]> => {
 	const objLoader = new OBJLoader();
 	return new Promise((resolve, reject) => {
-		mtlLoader.load(
-			mtlUrl,
-			(mtl) => {
-				mtl.preload();
-				objLoader.setMaterials(mtl);
-				objLoader.load(
-					objUrl,
-					(group) => {
-						resolve(group.children as Mesh<BufferGeometry, Material>[]);
-					},
-					undefined,
-					reject
-				);
+		objLoader.load(
+			objUrl,
+			(group) => {
+				resolve(group.children as Mesh[]);
 			},
 			undefined,
 			reject
