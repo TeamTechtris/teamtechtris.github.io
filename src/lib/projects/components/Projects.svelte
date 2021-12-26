@@ -41,6 +41,13 @@
 <section class="overflow-hidden bg-gradient-to-b from-purple-400 to-pink/50">
 	<div class="flex flex-col max-w-screen-md gap-4 p-8 mx-auto">
 		<h2 class="text-4xl font-bold tracking-wide text-gradient">Our Projects</h2>
+		{#if jsEnabled}
+			<div class="flex gap-2">
+				{#each pages as _, index}
+					<div class="w-2 h-2 rounded-full {index === currentIndex ? 'bg-white' : 'bg-white/50'}" />
+				{/each}
+			</div>
+		{/if}
 		<div class:zStack={jsEnabled} class="relative" style="--duration: {duration}ms">
 			{#each pages as page, index (index)}
 				<div
