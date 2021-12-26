@@ -91,17 +91,17 @@
 	}
 
 	.page {
-		transition: opacity var(--duration) ease-out, transform var(--duration) ease-out;
+		transition: opacity var(--duration) ease-out, transform calc(var(--duration) * 1.25) ease-out;
 	}
 
 	.hideLeft {
 		@apply opacity-0 pointer-events-none;
-		transform: translateX(-200px) rotate(-3deg);
+		transform: translateX(-600px) rotate(-3deg);
 	}
 
 	.hideRight {
 		@apply opacity-0 pointer-events-none;
-		transform: translateX(200px) rotate(3deg);
+		transform: translateX(600px) rotate(3deg);
 	}
 
 	.pageButton {
