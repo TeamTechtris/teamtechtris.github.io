@@ -7,7 +7,7 @@
 <section class="relative bg-gradient-to-b from-pink/50 aspect-video">
 	<header class="flex flex-col justify-end h-full max-w-screen-md gap-4 p-8 mx-auto">
 		<h1 class="text-6xl font-bold tracking-wide">
-			<span class="text-purple-light">Tech</span><span>tris</span>
+			<span>Tech</span><span class="text-salmon-300">tris</span>
 		</h1>
 		<div class="flex gap-4">
 			{#each members as { name, src }}

@@ -3,6 +3,6 @@
 	export let name: string;
 </script>
 
-<div class="w-12 h-12 overflow-hidden border-4 border-white rounded-full">
-	<img {src} alt={name} class="w-full h-full" />
+<div class="relative w-12 h-12">
+	<img {src} alt={name} class=" border-2 border-white w-full h-full rounded-full" />
 </div>
