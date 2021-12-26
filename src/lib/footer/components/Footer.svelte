@@ -9,8 +9,8 @@
 				<FooterModelCanvas />
 			</div>
 		</div>
-		<p class="text-center w-full p-8 pb-16">
-			Developed by <strong>Team Techtris</strong>.
+		<p class="text-center w-full p-8 pb-16 text-xl">
+			Developed by <strong class="text-gradient">Team Techtris</strong>.
 		</p>
 	</div>
 </footer>
