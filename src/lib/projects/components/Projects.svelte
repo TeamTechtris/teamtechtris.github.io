@@ -42,7 +42,7 @@
 	<div class="flex flex-col max-w-screen-md gap-4 p-8 mx-auto">
 		<h2 class="text-4xl font-bold tracking-wide text-gradient">Our Projects</h2>
 		{#if jsEnabled}
-			<div class="flex gap-2">
+			<div class="flex gap-2 px-2 mb-2">
 				{#each pages as _, index}
 					<div class="w-2 h-2 rounded-full {index === currentIndex ? 'bg-white' : 'bg-white/50'}" />
 				{/each}
