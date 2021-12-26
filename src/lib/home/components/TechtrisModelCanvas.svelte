@@ -4,8 +4,10 @@
 	import { loadOBJ } from '$lib/core/utils/model-loader';
 
 	let spin = 0;
+	let roll = 0;
 	SC.onFrame(() => {
 		spin += 0.01;
+		roll += 0.005;
 	});
 
 	let scrollY = 0;
@@ -19,7 +21,7 @@
 	{#await loadOBJ('/models/techtris.obj') then meshes}
 		{#each meshes as mesh}
 			<SC.Mesh
-				rotation={[scrollY / 100, spin, 0]}
+				rotation={[scrollY / 100, spin, roll]}
 				geometry={mesh.geometry}
 				material={new THREE.MeshStandardMaterial({ color: 0xdf828c })}
 			/>
