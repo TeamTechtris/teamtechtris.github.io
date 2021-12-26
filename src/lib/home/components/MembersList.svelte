@@ -7,7 +7,7 @@
 
 <div class="members" style="--duration: {duration}ms;">
 	{#each members as member, index}
-		<div style="--index: {index};">
+		<a href={member.href} target="_blank" style="--index: {index};">
 			<div class="photo">
 				<ProfilePhoto {...member} />
 			</div>
@@ -16,7 +16,7 @@
 					{member.name}
 				</p>
 			</div>
-		</div>
+		</a>
 	{/each}
 </div>
 
