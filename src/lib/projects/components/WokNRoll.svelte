@@ -12,7 +12,7 @@
 	};
 </script>
 
-<ProjectItem projectId="wok_n_roll">
+<ProjectItem projectId="wok_n_roll" class="mb-8 p-8 card">
 	<p>
 		We conducted market research and discovered an unfulfilled niche for a comprehensive database
 		and search engine for hawker food in Singapore.

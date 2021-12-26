@@ -3,7 +3,7 @@
 	import ProjectItem from './ProjectItem.svelte';
 </script>
 
-<ProjectItem projectId="como-club" class="mb-8">
+<ProjectItem projectId="como-club" class="mb-8 card p-8">
 	<p>
 		We designed a highly available and maintainable backend architecure for our SMU-X sponsor
 		&mdash; COMO Group.
