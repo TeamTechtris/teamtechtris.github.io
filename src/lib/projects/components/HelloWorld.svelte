@@ -3,7 +3,7 @@
 	import ProjectItem from './ProjectItem.svelte';
 </script>
 
-<ProjectItem projectId="helloworld">
+<ProjectItem projectId="helloworld" class="mb-2">
 	<p>
 		An AR application to re-live and reminiscence your travel adventures in the face of border
 		restrictions.

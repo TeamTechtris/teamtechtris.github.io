@@ -6,7 +6,7 @@
 	import Website from '$lib/core/icons/Website.svelte';
 	import { members } from '$lib/members/data/members';
 
-	export let duration = 500;
+	export let duration = 800;
 	export let delay = 200;
 	export let numItems = members.length;
 	export let photoSize = '4rem';
@@ -25,8 +25,8 @@
 				<div class="photo">
 					<ProfilePhoto {...member} class="w-full h-full" />
 				</div>
-				<div class="content flex flex-col justify-center gap-2">
-					<p class="font-bold text-xl">
+				<div class="flex flex-col justify-center gap-2 content">
+					<p class="text-xl font-bold">
 						{member.name}
 					</p>
 					<ul class="flex gap-2 text-pink-200">

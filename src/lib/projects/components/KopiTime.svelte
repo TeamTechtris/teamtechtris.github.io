@@ -3,7 +3,7 @@
 	import ProjectItem from './ProjectItem.svelte';
 </script>
 
-<ProjectItem projectId="kopi-time">
+<ProjectItem projectId="kopi-time" class="mb-16">
 	<p>Kopi Time is a digital marketplace for coffee-related art and collectables.</p>
 	<p>We implemented a reliable and robust microservice architecture to handle:</p>
 	<ul class="ml-4 list-disc list-outside">
