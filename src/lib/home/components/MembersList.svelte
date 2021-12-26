@@ -5,7 +5,7 @@
 	export let duration = 500;
 </script>
 
-<div class="photo-container" style="--duration: {duration}ms;">
+<div class="members" style="--duration: {duration}ms;">
 	{#each members as member, index}
 		<div style="--index: {index};">
 			<div class="photo">
@@ -21,13 +21,13 @@
 </div>
 
 <style lang="postcss">
-	.photo-container {
+	.members {
 		@apply relative;
 		height: 3rem;
 		transition: height var(--duration) ease-in-out;
 	}
 
-	:global(.group:hover) .photo-container {
+	:global(.group:hover) .members {
 		height: calc(19rem);
 	}
 
