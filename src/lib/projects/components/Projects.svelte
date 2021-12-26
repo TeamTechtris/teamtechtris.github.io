@@ -2,6 +2,7 @@
 	import ComoClub from './ComoClub.svelte';
 	import HelloWorld from './HelloWorld.svelte';
 	import KopiTime from './KopiTime.svelte';
+	import WokNRoll from './WokNRoll.svelte';
 </script>
 
 <section class="overflow-hidden">
@@ -10,5 +11,6 @@
 		<HelloWorld />
 		<KopiTime />
 		<ComoClub />
+		<WokNRoll />
 	</div>
 </section>

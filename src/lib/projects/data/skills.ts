@@ -117,4 +117,12 @@ export const projectSkills: [ProjectID, SkillID][] = [
 	['como-club', 'docker'],
 	['como-club', 'cloudformation'],
 	['como-club', 'aws'],
+	// wok_n_roll
+	['wok_n_roll', 'typescript'],
+	['wok_n_roll', 'java'],
+	['wok_n_roll', 'svelte'],
+	['wok_n_roll', 'sveltekit'],
+	['wok_n_roll', 'tailwindcss'],
+	['wok_n_roll', 'spring'],
+	['wok_n_roll', 'rest'],
 ];
