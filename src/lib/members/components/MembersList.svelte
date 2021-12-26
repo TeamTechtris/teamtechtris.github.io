@@ -29,7 +29,7 @@
 					<p class="font-bold text-xl">
 						{member.name}
 					</p>
-					<ul class="flex gap-2 text-salmon-200">
+					<ul class="flex gap-2 text-pink-200">
 						<li><a href={member.github} class="w-6 h-6"><Github class="w-6 h-6" /></a></li>
 						<li><a href={member.linkedin} class="w-6 h-6"><Linkedin class="w-6 h-6" /></a></li>
 						{#if member.website}
