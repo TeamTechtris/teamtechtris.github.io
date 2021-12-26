@@ -4,7 +4,7 @@
 	import Github from '$lib/core/icons/Github.svelte';
 	import Linkedin from '$lib/core/icons/Linkedin.svelte';
 	import Website from '$lib/core/icons/Website.svelte';
-	import { members } from '$lib/core/data/members';
+	import { members } from '$lib/members/data/members';
 
 	export let duration = 500;
 	export let delay = 200;
