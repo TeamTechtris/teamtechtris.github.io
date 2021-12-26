@@ -20,22 +20,24 @@
 	</p>
 	<div class="relative mt-4 aspect-square">
 		<Reveal
-			percent={50}
+			percent={80}
 			transition="fly"
 			flyY={50}
 			duration={600}
 			delay={250}
+			repeat
 			class="absolute top-[10%] left-[20%] right-[40%]"
 		>
 			<img src="/projects/como-club/home.png" alt="como club home page" />
 		</Reveal>
 
 		<Reveal
-			percent={50}
+			percent={80}
 			transition="fly"
 			flyY={50}
 			duration={600}
 			delay={50}
+			repeat
 			class="absolute top-0 left-[40%] right-[20%]"
 		>
 			<img src="/projects/como-club/experiences.png" alt="como club experiences page" />
