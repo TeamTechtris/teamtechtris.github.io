@@ -5,6 +5,10 @@
 	import Footer from '$lib/footer/components/Footer.svelte';
 </script>
 
+<svelte:head>
+	<title>Team Techtris</title>
+</svelte:head>
+
 <Header />
 <Members />
 <Projects />
