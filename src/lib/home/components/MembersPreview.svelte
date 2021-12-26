@@ -7,16 +7,18 @@
 
 <div class="members" style="--duration: {duration}ms;">
 	{#each members as member, index}
-		<a href={member.href} target="_blank" style="--index: {index};">
+		<div style="--index: {index};">
 			<div class="photo">
-				<ProfilePhoto {...member} />
+				<a href={member[member.preferred]} target="_blank" class="w-16 h-16">
+					<ProfilePhoto {...member} />
+				</a>
 			</div>
 			<div class="name">
-				<p class="flex items-center h-full">
+				<a href={member[member.preferred]} target="_blank" class="flex items-center h-full">
 					{member.name}
-				</p>
+				</a>
 			</div>
-		</a>
+		</div>
 	{/each}
 </div>
 
@@ -40,6 +42,7 @@
 		height: 3rem;
 		top: 0;
 		opacity: 0;
+		pointer-events: none;
 		transition: opacity var(--duration) ease-in-out, top var(--duration) ease-in-out;
 	}
 
@@ -57,6 +60,7 @@
 		:global(.group:hover) .name {
 			opacity: 1;
 			top: calc(var(--index) * 4rem);
+			pointer-events: all;
 		}
 	}
 </style>
