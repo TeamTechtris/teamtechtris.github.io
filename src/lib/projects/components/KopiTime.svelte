@@ -22,7 +22,6 @@
 			flyY={50}
 			duration={600}
 			delay={50}
-			repeat
 			class="absolute top-[10%] left-0 right-[60%]"
 		>
 			<img src="/projects/kopi-time/home.png" alt="kopi-time home page" />
@@ -34,7 +33,6 @@
 			flyY={50}
 			duration={600}
 			delay={150}
-			repeat
 			class="absolute top-[10%] left-[60%] right-0"
 		>
 			<img src="/projects/kopi-time/listings.png" alt="kopi-time listings page" />
@@ -46,7 +44,6 @@
 			flyY={50}
 			duration={600}
 			delay={250}
-			repeat
 			class="absolute left-[25%] right-[25%]"
 		>
 			<img src="/projects/kopi-time/profile.png" alt="kopi-time profile page" />

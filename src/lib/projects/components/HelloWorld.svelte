@@ -31,7 +31,6 @@
 			flyY={50}
 			duration={600}
 			delay={50}
-			repeat
 			class="absolute top-[5%] left-0 right-[45%]"
 		>
 			<img src="/projects/helloworld/map-flat.png" alt="helloworld discover screen" />
@@ -43,7 +42,6 @@
 			flyY={50}
 			duration={600}
 			delay={200}
-			repeat
 			class="absolute top-[15%] left-[47%] right-0"
 		>
 			<img src="/projects/helloworld/ar-portrait-flat.png" alt="helloworld ar portrait" />
@@ -55,7 +53,6 @@
 			flyY={30}
 			duration={600}
 			delay={350}
-			repeat
 			class="absolute top-[50%] left-[10%] right-[25%]"
 		>
 			<img src="/projects/helloworld/ar-landscape-flat-rotated.png" alt="helloworld ar portrait" />

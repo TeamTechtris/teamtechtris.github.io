@@ -25,7 +25,6 @@
 			flyY={50}
 			duration={600}
 			delay={250}
-			repeat
 			class="absolute top-[10%] left-[20%] right-[40%]"
 		>
 			<img src="/projects/como-club/home.png" alt="como club home page" />
@@ -37,7 +36,6 @@
 			flyY={50}
 			duration={600}
 			delay={50}
-			repeat
 			class="absolute top-0 left-[40%] right-[20%]"
 		>
 			<img src="/projects/como-club/experiences.png" alt="como club experiences page" />
