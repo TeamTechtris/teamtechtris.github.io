@@ -3,7 +3,7 @@
 </script>
 
 <section class="relative bg-gradient-to-b from-pink/50 aspect-video">
-	<header class="flex flex-col justify-end h-full max-w-screen-md gap-4 p-8 mx-auto">
+	<header class="flex flex-col justify-end h-full max-w-screen-md gap-4 p-8 pb-12 mx-auto">
 		<h1 class="text-6xl font-bold">
 			<span>Tech</span><span class="text-salmon-300">tris</span>
 		</h1>
