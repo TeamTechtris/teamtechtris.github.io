@@ -56,7 +56,7 @@ const config = {
 				},
 			},
 			fontFamily: {
-				sans: ['Poppins', ...defaultTheme.fontFamily.sans],
+				sans: ['DM Sans', ...defaultTheme.fontFamily.sans],
 			},
 		},
 	},
