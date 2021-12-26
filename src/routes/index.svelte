@@ -1,4 +1,5 @@
 <script lang="ts">
+	import '../app.css';
 	import Header from '$lib/home/components/Header.svelte';
 	import Members from '$lib/members/components/Members.svelte';
 	import Projects from '$lib/projects/components/Projects.svelte';
