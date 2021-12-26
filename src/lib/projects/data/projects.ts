@@ -1,16 +1,12 @@
 export interface Project {
 	name: string;
-	description: string;
-	href: string;
 }
 
-export type ProjectID = 'helloworld';
+export type ProjectID = 'helloworld' | 'kopi-time' | 'como-club' | 'wok_n_roll';
 
 export const projects: Record<ProjectID, Project> = {
-	helloworld: {
-		name: 'HelloWorld',
-		description:
-			'An AR application to re-live and reminiscence your travel adventures in the face of border restrictions.',
-		href: 'https://news.smu.edu.sg/news/2021/07/02/smus-computing-and-information-systems-team-emerged-champions-dsta-hackathon',
-	},
+	helloworld: { name: 'HelloWorld' },
+	'kopi-time': { name: 'Kopi Time' },
+	'como-club': { name: 'COMO Club' },
+	wok_n_roll: { name: 'Wok N Roll' },
 };

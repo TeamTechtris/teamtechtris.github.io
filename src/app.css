@@ -13,4 +13,10 @@
 	.text-link {
 		@apply font-bold text-gold-400 hover:underline;
 	}
+
+	.auto-html {
+		a {
+			@apply text-link;
+		}
+	}
 }
