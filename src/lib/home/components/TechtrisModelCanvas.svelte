@@ -7,7 +7,11 @@
 	SC.onFrame(() => {
 		spin += 0.01;
 	});
+
+	let scrollY = 0;
 </script>
+
+<svelte:window bind:scrollY />
 
 <SC.Canvas alpha antialias>
 	<SC.PerspectiveCamera position={[9, 6, -9]} fov={50} zoom={8} />
@@ -15,7 +19,7 @@
 	{#await loadOBJ('/models/techtris.obj') then meshes}
 		{#each meshes as mesh}
 			<SC.Mesh
-				rotation={[0, spin, 0]}
+				rotation={[scrollY / 100, spin, 0]}
 				geometry={mesh.geometry}
 				material={new THREE.MeshStandardMaterial({ color: 0xdf828c })}
 			/>
