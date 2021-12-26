@@ -10,6 +10,8 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 
+	import ChevronLeft from '$lib/core/icons/ChevronLeft.svelte';
+	import ChevronRight from '$lib/core/icons/ChevronRight.svelte';
 	import ComoClub from './ComoClub.svelte';
 	import HelloWorld from './HelloWorld.svelte';
 	import KopiTime from './KopiTime.svelte';
@@ -58,13 +60,13 @@
 					on:click={handlePrev}
 					class="absolute left-0 top-1/2 -translate-x-1/2 -translate-y-1/2 button pageButton"
 				>
-					prev
+					<ChevronLeft class="w-6 h-6" />
 				</button>
 				<button
 					on:click={handleNext}
 					class="absolute right-0 top-1/2 translate-x-1/2 -translate-y-1/2 button pageButton"
 				>
-					next
+					<ChevronRight class="w-6 h-6" />
 				</button>
 			{/if}
 		</div>
@@ -96,6 +98,6 @@
 	}
 
 	.pageButton {
-		@apply w-12 h-12;
+		@apply w-12 h-12 flex justify-center items-center;
 	}
 </style>
