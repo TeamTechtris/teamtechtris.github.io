@@ -13,7 +13,7 @@
 	export let gapSize = '1rem';
 </script>
 
-<Intersection percent={60} let:reveal let:manualReveal>
+<Intersection percent={100} let:reveal let:manualReveal>
 	<div
 		class="members"
 		class:reveal
