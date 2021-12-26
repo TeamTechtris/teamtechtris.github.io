@@ -9,6 +9,19 @@
 	.card {
 		@apply rounded-xl bg-white/10;
 	}
+
+	.button {
+		@apply rounded-full bg-white/50 text-pink transition-colors;
+		&:focus {
+			@apply outline-none ring-4 ring-pink-400;
+		}
+		&:hover {
+			@apply bg-white/70;
+		}
+		&:active {
+			@apply bg-white/30;
+		}
+	}
 }
 
 @layer utilities {
