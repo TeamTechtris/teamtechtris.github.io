@@ -15,14 +15,14 @@
 		The full report on our architectural decisions can be viewed
 		<a href="/projects/kopi-time/cs302-final-report.pdf" target="_blank">here</a>.
 	</p>
-	<div class="relative aspect-[16/7] mt-4">
+	<div class="relative aspect-[16/5] mt-4">
 		<Reveal
 			percent={50}
 			transition="fly"
 			flyY={50}
 			duration={600}
 			delay={50}
-			class="absolute top-[10%] left-[-20%] right-[60%]"
+			class="absolute top-[10%] left-0 right-[60%]"
 		>
 			<img src="/projects/kopi-time/home.png" alt="kopi-time home page" />
 		</Reveal>
@@ -33,7 +33,7 @@
 			flyY={50}
 			duration={600}
 			delay={150}
-			class="absolute top-[10%] left-[60%] right-[-20%]"
+			class="absolute top-[10%] left-[60%] right-0"
 		>
 			<img src="/projects/kopi-time/listings.png" alt="kopi-time listings page" />
 		</Reveal>
@@ -44,7 +44,7 @@
 			flyY={50}
 			duration={600}
 			delay={250}
-			class="absolute left-[15%] right-[15%]"
+			class="absolute left-[25%] right-[25%]"
 		>
 			<img src="/projects/kopi-time/profile.png" alt="kopi-time profile page" />
 		</Reveal>
