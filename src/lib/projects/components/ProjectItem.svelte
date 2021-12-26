@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { projects } from '$lib/projects/data/projects';
-	import { projectSkills } from '$lib/projects/data/skills';
+	import { projectSkills } from '$lib/projects/data/project-skills';
 	import type { ProjectID } from '$lib/projects/data/projects';
 	import SkillList from './SkillList.svelte';
 
