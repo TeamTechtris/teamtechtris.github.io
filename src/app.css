@@ -9,4 +9,8 @@
 	.text-gradient {
 		@apply text-transparent bg-clip-text bg-gradient-to-r from-salmon via-gold-light to-white;
 	}
+
+	.text-link {
+		@apply font-bold text-gold-400 hover:underline;
+	}
 }
