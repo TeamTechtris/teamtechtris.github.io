@@ -27,20 +27,11 @@
 		transition: height var(--duration) ease-in-out;
 	}
 
-	:global(.group:hover) .members {
-		height: calc(19rem);
-	}
-
 	.photo {
 		@apply absolute;
 		top: 0;
 		left: calc(var(--index) * 4rem);
 		transition: top var(--duration) ease-in-out, left var(--duration) ease-in-out;
-	}
-
-	:global(.group:hover) .photo {
-		top: calc(var(--index) * 4rem);
-		left: 0;
 	}
 
 	.name {
@@ -52,8 +43,20 @@
 		transition: opacity var(--duration) ease-in-out, top var(--duration) ease-in-out;
 	}
 
-	:global(.group:hover) .name {
-		opacity: 1;
-		top: calc(var(--index) * 4rem);
+	/* lg: */
+	@media (min-width: 1024px) {
+		:global(.group:hover) .members {
+			height: calc(19rem);
+		}
+
+		:global(.group:hover) .photo {
+			top: calc(var(--index) * 4rem);
+			left: 0;
+		}
+
+		:global(.group:hover) .name {
+			opacity: 1;
+			top: calc(var(--index) * 4rem);
+		}
 	}
 </style>
